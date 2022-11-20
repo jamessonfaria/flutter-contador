@@ -60,12 +60,14 @@ class HomePage extends StatelessWidget {
                 ),
                 TextButton(
                   onPressed: increment,
-                  child: const Text("Entrou",
-                      style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 16,
-                      )),
-                )
+                  child: const Text(
+                    "Entrou",
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 16,
+                    ),
+                  ),
+                ),
               ],
             ),
           ],
